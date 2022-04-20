@@ -31,7 +31,7 @@ export default class HomeScreen extends Component {
                         this.props.navigation.navigate("IssLocation")
                     }>
                         <Text style={styles.routeText}>ISS Localización</Text>
-                        <Text style={styles.knowMore}>{"Know More --->"}</Text>
+                        <Text style={styles.knowMore}>{"Saber más --->"}</Text>
                         <Text style={styles.bgDigit}>1</Text>
                         <Image source={require("../assets/iss_icon.png")} style={styles.iconImage}></Image>
                     </TouchableOpacity>
@@ -39,7 +39,7 @@ export default class HomeScreen extends Component {
                         this.props.navigation.navigate("Meteors")
                     }>
                         <Text style={styles.routeText}>Meteoros</Text>
-                        <Text style={styles.knowMore}>{"Know More --->"}</Text>
+                        <Text style={styles.knowMore}>{"Saber más --->"}</Text>
                         <Text style={styles.bgDigit}>2</Text>
                         <Image source={require("../assets/meteor_icon.png")} style={styles.iconImage}></Image>
                     </TouchableOpacity>
