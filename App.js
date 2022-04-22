@@ -15,9 +15,9 @@ function App() {
       <Stack.Navigator initialRouteName="Inicio" screenOptions={{
         headerShown: false
       }}>
-        <Stack.Screen name="Inicio" component={HomeScreen} />
-        <Stack.Screen name="Iss Localización" component={IssLocationScreen} />
-        <Stack.Screen name="Meteoros" component={MeteorScreen} />
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="IssLocation" component={IssLocationScreen} />
+        <Stack.Screen name="Meteors" component={MeteorScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
