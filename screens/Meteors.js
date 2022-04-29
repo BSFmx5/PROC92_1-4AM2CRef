@@ -56,7 +56,7 @@ export default class MeteorScreen extends Component {
                         justifyContent: "center",
                         alignItems: "center"
                     }}>
-                    <Text>!Pantalla Meteoros!</Text>
+                    <Text>¡Pantalla meteoritos!</Text>
                 </View>
             )
         }
